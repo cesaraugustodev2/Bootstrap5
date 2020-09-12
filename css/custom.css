@@ -1,0 +1,115 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.main-header {
+    color: white;
+    padding-bottom: 120px;
+    padding-top: 50px;
+    background: #8E2DE2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+}
+
+.custom-nav {
+    box-shadow: 5px 5px 5px 4px rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+}
+
+.content {
+    margin-top: 50px
+}
+
+.title h1 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 5em;
+    font-style: italic;
+}
+
+.title svg {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.post-title {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.post-title h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: #8E2DE2;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #8E2DE2;
+    font-weight: 500;
+}
+
+figcaption {
+    color: #600e8f;
+    font-weight: 700;
+}
+
+
+
+.list-group-item:hover {
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 5px 4px rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.modal {
+    background: #8E2DE2;
+}
+
+hr {
+    color: #d9a3f7;
+    background-color: #d9a3f7;
+
+}
+
+p::first-letter {
+    font-size: 1.5em;
+    color: #8E2DE2
+}
+
+.text-sidebar-title {
+    font-size: 1.6em
+}
+
+.btn::before {
+    content: "<svg width="1em"height="1em"viewBox="0 0 16 16"class="bi bi-box-arrow-up-right"fill="currentColor"xmlns="http: //www.w3.org/2000/svg"> <path fill-rule="evenodd"d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/> <path fill-rule="evenodd"d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/> </svg>"
+}

@@ -1,0 +1,124 @@
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.main-header {
+    color: white;
+
+}
+
+.custom-nav {
+    box-shadow: 5px 5px 5px 4px rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+}
+
+.content {
+    margin-top: 50px
+}
+
+.title h1 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 5em;
+    font-style: italic;
+}
+
+.title svg {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.post-title {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.post-title h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+figcaption {
+    color: #600e8f;
+    font-weight: 700;
+}
+
+
+
+.list-group-item:hover {
+    cursor: pointer;
+}
+
+.comments-box {
+    font-style: italic
+}
+
+.modal {
+    background: #8E2DE2;
+}
+
+hr {
+    color: #d9a3f7;
+    background-color: #d9a3f7;
+
+}
+
+.article::first-letter {
+    font-size: 2.5em;
+    color: purple
+}
+
+
+
+.text-sidebar-title {
+    font-size: 1.6em
+}
+
+.dark-blue:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.light-blue:hover {
+    background-color: lightskyblue;
+    color: black;
+}
+
+.green:hover {
+    background-color: green;
+    color: white;
+}
+
+.main-header {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    height: 100vh;
+    width: 100vw;
+
+}
