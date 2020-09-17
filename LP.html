@@ -10,8 +10,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <!-- custom Css -->
     <link rel="stylesheet" href="css/lp.css">
-    <title> Bootstrap 5</title>
+    <!--Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@700&display=swap" rel="stylesheet">
+
+
+
+
+    <title> Bootstrap 5</title
+
 </head>
+<body>
+
+
 <header>
     <!-- Fixed navbar -->
     <nav class="navbar navbar-expand-md navbar-dark custom-nav bg-dark">
@@ -48,39 +59,122 @@
 
 <body>
     <!--Banner-->
-    <section id="main-header" class="">
-        <div class="container">
-            <div class="row">
+    <section id="main-header" class="mt-2 main-header">
 
-                <div class="main-header text-center">
-                    <div class="col-md-9">
-                        <img src="img/smartphone.png" alt=" Smartphone">
-                        <h1 class=" display-5">
-                            Lorem ipsum dolor sit amet!
-                        </h1>
-                        <p class="lead">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae molestias numquam, nulla incidunt nemo neque error maxime vitae nisi?
-                        </p>
-                        <span class="btn btn-info"> Lorem Ipsun</span>
-                    </div>
 
-                </div>
-            </div>
-            <div class="row py-2">
-                <div class="col-md-12">
-                    <div class="row">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12 col-md-12  text-lg-left text-sm-center">
+                                <h1 class="title"> Vamos passear de balão?</h1>
+                              </div>
+                                <div class="row">
+                                  <div class="col-lg-5 col-md-6 justify-content-center">
+
+                          <form action="#" class="form text-sm-center">
+                            <p class="subtitle"> Preencha o formulário abaixo e nossa equipe entrará em contato o mais breve possível</p>
+
+                            <input type="text" class="form-control form-control-sm " placeholder="Digite seu Primeiro  nome" name="pnome"maxlength="20" required>
+
+                            <input type="text" class="form-control form-control-sm  mt-2" placeholder="Digite seu Sobrenome  nome" name="snome"  maxlength="20" required>
+
+                            <input type="email" class="form-control  form-control-sm mt-2" placeholder="Digite seu e-mail" name="email" required>
+                            <input type="tel" name="tel" placeholder="Digite seu telefone com DDD" class="form-control  form-control-sm mt-2" pattern="[0-9]{11}" required>
+                            <select class="form-select form-select-sm mt-2" name="uf" required>
+                              <option value=""> Selecione uma cidade</option>
+                              <optgroup label="Sudeste"> Sudeste </optgroup>
+                            <option value="SP">São paulo</option>
+                            <option value="RJ"> Rio de Janeiro</option>
+                            <option value="RJ"> Minas Gerais</option>
+                            <option value="RJ"> Espirito Santo</option>
+                            <optgroup label="Nordeste"> Sudeste </optgroup>
+                          <option value="SP">Bahia</option>
+                          <option value="RJ"> Pernambuco</option>
+                          <option value="RJ"> Rio grande do norte</option>
+                          <option value="RJ"> Sergipe</option>
+                          </select>
+                            <select class="form-select form-select-sm  mt-2" name="uf" required>
+                                <option value=""> Selecione um tipo de passeio</option>
+                              <option value="grupo"> Passeio em grupo</option>
+                                <option value="grupo"> Passeio Exclusivo</option>
+                                  <option value="grupo"> Eventos</option>
+                                </select>
+                            <div class="mt-2">
+                            <button class="btn btn-primary btn-block" type="submit"> Enviar</button>
+                            </div>
+
+
+                          </form>
+
+                        </div>
+
+                      </div>
+                      <div class="col-lg-12 text-center   mt-4">
+                        <span class="btn btn-success btn-lg"> Mais informações</span>
+                      </div>
                     </div>
-                </div>
+                  </div>
+
+
+              </section>
+<!-- Formulário -->
+    <section id="passeios">
+      <div class="container mt-2">
+        <div class="col text-center">
+      <div class="col-lg-12 text-center">
+        <h1>Opções de passeios</h1>
+        <div class="row">
+        <div class="col-lg-4">
+        <div class="card" style="width: 21rem;">
+    <img src="https://source.unsplash.com/300x200/?balloon,travel " class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Passeio em grupo</h5>
+      <p class="card-text"> O vôo de balão em grupo é ideal para casais, amigos e famílias que compartilham do mesmo desejo que você</p>
+      <a href="#" class="btn btn-primary">Quero esse!</a>
+    </div>
+    </div>
+  </div>
+    <div class="col-lg-4">
+  <div class="card" style="width: 21rem;">
+<img src="https://source.unsplash.com/300x200/?balloon,travel " class="card-img-top" alt="...">
+<div class="card-body">
+<h5 class="card-title">Passeio Exclusivo</h5>
+<p class="card-text"> O vôo de balão em grupo é ideal para casais, amigos e famílias que compartilham do mesmo desejo que você</p>
+<a href="#" class="btn btn-primary">Quero esse!</a>
+</div>
+</div>
+        </div>
+        <div class="col-lg-4">
+      <div class="card" style="width: 21rem;">
+    <img src="https://source.unsplash.com/300x200/?balloon,travel " class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title"> EVENTOS, FESTAS E PROPAGANDA </h5>
+    <p class="card-text">  Atendemos empresas, escolas, agências de turismo e terceira idade</p>
+    <a href="#" class="btn btn-primary">Mais informações</a>
+    </div>
+    </div>
             </div>
         </div>
 
 
+      </div>
+
+      </div>
+
+
+      </div>
+    </div>
     </section>
-
-
 
     <!-- Optional JavaScript -->
     <!-- Popper.js first, then Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+<!--Cookies Consent -->
+
+
+<script src="js/config-cookie.js"> </script>
+<script>CookieBoxConfig = { backgroundColor: '#ec008c', url: '/privacy.html',cookieKey:"Cookies-ok",cookieExpireInDays:"30",language:"pt"  }</script>
+
+
+
 </body></html>
