@@ -38,8 +38,18 @@ body {
     font-style: italic;
 
 
+}
+.card-title {
+   padding-top: 10px;
+   padding-bottom: 20px;
+   font-size: 1.1em;
+   font-family: 'Alegreya', serif;
+   font-style: italic;
+  text-transform: uppercase;
 
-
+}
+.card-text {
+  font-style: italic;
 }
 
 .title svg {
@@ -131,6 +141,7 @@ hr {
 
 }
 
+
 svg {
     width: 1.5em;
     height: 1.5em;
@@ -138,9 +149,6 @@ svg {
 
 
 
-.card {
-    margin-right: 10px;
-    border-radius: 20px;
 
 
 
@@ -153,4 +161,30 @@ p.subtitle {
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+hr {
+  border: 5px solid darkblue;
+  border-radius: 20px;
+}
+.card-p:hover {
+  bottom: 20px;
+  border: #f00 5px dotted;
+  cursor: pointer;
+
+}
+.feedback-text {
+  font-style: italic;
+  line-height: 1.2em;
+  text-align: justify;
+}
+.feedback-text::first-letter {
+  font-size: 2.8em;
+  color: red;
+}
+.feedback-title {
+  font-size: 2.1em;
+}
+i {
+  font-size: 2.5em;
+  color: white;
 }
